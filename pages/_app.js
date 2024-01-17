@@ -12,7 +12,7 @@ const StyledList = styled.ul`
   display: flex;
   gap: 1rem;
 `;
-const StyledLink = styled.a`
+const StyledLink = styled(Link)`
 text-decoration: none;
 
 &:hover {
